@@ -151,9 +151,9 @@ public class Run
      * @author srcrs
      * @Time 2020-10-31
      */
-    public void send(String sckey){
+    public void send(String sckey) {
         /** 将要推送的数据 */
-        String text = "总: "+ followNum + " - ";
+        String text = "【百度贴吧】总: "+ followNum + " - ";
         text += "成功: " + success.size() + " 失败: " + (followNum - success.size());
         String desp = "共 "+ followNum + " 贴吧\n\n";
         desp += "成功: " + success.size() + " 失败: " + (followNum - success.size());
